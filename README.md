@@ -1,2 +1,2 @@
 # ShouHon
-Unfinished Project - An attempt at making a Visual Novel
+Unfinished Project - An attempt at making a Visual Novel engine.
