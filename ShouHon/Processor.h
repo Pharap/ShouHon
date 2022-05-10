@@ -817,7 +817,7 @@ void Processor<SettingsType>::updateProcessingState()
 				const auto x = this->reader.readU8();
 				const auto y = this->reader.readU8();
 				
-				this->images[this->nextImage] = Image(index, frame, x, y);
+				this->images[this->nextImage] = { index, frame, x, y };
 				++this->nextImage;
 			}
 			break;
